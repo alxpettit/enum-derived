@@ -4,7 +4,7 @@ Use Enum-Derived's Rand macro to generate random variants of your enums and stru
 
 Need custom constraints applied to a variant or field? Use the `#[custom_rand(your_function)]` attribute to override the default behavior or extend support to types without default support.
 
-Need some variants to be generated more ofter? Use the `#[weight(VARIANT_WEIGHT)]` to change the distribution.
+Need some variants to be generated more often? Use the `#[weight(VARIANT_WEIGHT)]` to change the distribution.
 
 ---
 
